@@ -1,0 +1,8 @@
+user_int = int(input('Enter integer (32 - 126):\n'))
+enter_float = input('Enter float:\n')
+enter_char = input('Enter character:\n')
+enter_stn = input('Enter string:\n')
+print(f'{user_int} {enter_float} {enter_char} {enter_stn}')
+print(f'{enter_stn} {enter_char} {enter_float} {user_int}')
+convint = chr(user_int)
+print(f'{user_int} converted to a character is {convint}')
